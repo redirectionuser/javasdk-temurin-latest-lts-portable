@@ -1,4 +1,4 @@
 cd App
-7z.exe x OpenJDK17U*.zip
+7z.exe x OpenJDK*.zip
 move jdk* "JavaSdkTemurinLatestLts"
-del OpenJDK17U*.zip
+del OpenJDK*.zip
