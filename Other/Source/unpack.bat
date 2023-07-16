@@ -1,4 +1,3 @@
-cd App
-7z.exe x OpenJDK*.zip
-move jdk* "JavaSdkTemurinLatestLts"
-del OpenJDK*.zip
+7zTemp\7z.exe x App\OpenJDK*.zip -o"App"
+move App\jdk* "App\JavaSdkTemurinLatestLts"
+del App\OpenJDK*.zip
